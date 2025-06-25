@@ -2417,8 +2417,8 @@ int32_t lsm6dsl_gy_band_pass_get(const stmdev_ctx_t *ctx,
           *val = LSM6DSL_HP_DISABLE_LP1_NORMAL;
           break;
 
-        case LSM6DSL_HP_DISABLE_LP_STRONG:
-          *val = LSM6DSL_HP_DISABLE_LP_STRONG;
+        case LSM6DSL_HP_DISABLE_LP1_STRONG:
+          *val = LSM6DSL_HP_DISABLE_LP1_STRONG;
           break;
 
         case LSM6DSL_HP_DISABLE_LP1_AGGRESSIVE:
