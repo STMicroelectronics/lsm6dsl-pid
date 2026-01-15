@@ -96,7 +96,7 @@ This directory contains the LSM6DSL component drivers.
 
 </div>
 
-<input type="checkbox" id="collapse-section6" checked aria-hidden="true">
+<input type="checkbox" id="collapse-section6" aria-hidden="true">
 <label for="collapse-section6" aria-hidden="true">V2.2.0 / 07-Oct-2025</label>
 <div>
 
@@ -105,6 +105,18 @@ This directory contains the LSM6DSL component drivers.
 - Added checks after reads and reset membank on errors
 - Fixed `LSM6DSL_HP_DISABLE_LP1_STRONG` constant naming
 - Adding CODE_OF_CONDUCT.md and SECURITY.md
+
+##
+
+</div>
+
+<input type="checkbox" id="collapse-section7" checked aria-hidden="true">
+<label for="collapse-section7" aria-hidden="true">V2.2.1 / 15-Jan-2026</label>
+<div>
+
+## Main changes
+
+- Change bit address representation for sensor-hub from 7 bit to 8 bit
 
 ##
 
